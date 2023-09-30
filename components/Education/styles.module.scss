@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 75rem;
+  border-top: 1px solid var(--line-gray);
+}
+
+.contentInner {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+
+.innerOne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  color: var(--secondary);
+}
+
+.innerTwo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.date {
+  p {
+    color: var(--orange);
+  }
+}
