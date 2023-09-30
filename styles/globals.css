@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
 
 *,
 *::before,
@@ -14,6 +14,7 @@
   --line-gray: #e7eae8;
   --gray: #ffffff80;
   --profile-border: #ffffff33;
+  --icon-bg: #495057;
   --gray-dark: #343a40;
   --primary: #bd5d38;
   --secondary: #6c757d;
@@ -43,5 +44,14 @@ h1,
 h2,
 h3 {
   font-family: "Saira", sans-serif;
+  color: var(--gray-dark);
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 200;
   color: var(--secondary);
 }
