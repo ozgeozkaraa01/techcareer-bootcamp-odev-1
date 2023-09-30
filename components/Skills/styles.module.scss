@@ -1,0 +1,50 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  max-width: 75rem; /* Maksimum genişlik ayarı */
+  border-top: 1px solid var(--line-gray);
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  color: var(--secondary);
+}
+
+.skillsList {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Elemanlar sığdığında alt satıra geç */
+  li {
+    display: inline-block;
+    margin-right: 1.5rem; /* Elemanlar arasında sağda 1.5rem boşluk bırak */
+    color: var(--secondary);
+  }
+}
+
+.list {
+  margin-top: 20px;
+  padding-left: 20px;
+  li {
+    display: flex;
+    align-items: center; /* Yazıyı ve ikonu dikey hizala */
+    margin-bottom: 10px; /* İkonlar ve yazılar arasındaki boşluğu ayarla */
+    color: var(--secondary);
+    span {
+      margin-right: 10px; /* İkon ile yazı arasındaki boşluğu ayarla */
+      color: var(--secondary);
+      font-size: 0.75rem; /* 12px */
+      line-height: 1rem; /* 16px */
+    }
+  }
+}
