@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap");
 
 *,
 *::before,
@@ -40,18 +40,36 @@ ul {
   list-style-type: none;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Saira", sans-serif;
+h1 {
   color: var(--gray-dark);
   font-weight: 600;
   line-height: 1.2;
   font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 3rem !important;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: var(--gray-dark);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+  font-weight: 800;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
 }
 
 p {
-  font-size: 1.1rem;
-  font-weight: 200;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 400;
   color: var(--secondary);
+  margin-top: 1rem;
 }

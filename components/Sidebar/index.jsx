@@ -9,7 +9,7 @@ const Sidebar = () => {
       <div className={styles.navList}>
         <ul className={styles.nav}>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#about">
               About
             </Link>
           </li>

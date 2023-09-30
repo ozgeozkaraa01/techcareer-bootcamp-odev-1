@@ -18,7 +18,9 @@ export default function Home() {
       </Head>
       <Sidebar />
       <div style={{ marginLeft: "17rem" }}>
-        <About />
+        <section id="about">
+          <About />
+        </section>
         <Experience />
         <Education />
         <Skills />
