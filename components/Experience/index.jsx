@@ -4,9 +4,7 @@ import styles from "./styles.module.scss";
 const Experience = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <h2>Experience</h2>
-      </div>
+      <h2>Experience</h2>
       <div className={styles.contentInner}>
         <div className={styles.contentOne}>
           <div className={styles.left}>

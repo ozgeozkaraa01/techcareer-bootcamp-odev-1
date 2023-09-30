@@ -21,11 +21,21 @@ export default function Home() {
         <section id="about">
           <About />
         </section>
-        <Experience />
-        <Education />
-        <Skills />
-        <Interests />
-        <Awards />
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="education">
+          <Education />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="interests">
+          <Interests />
+        </section>
+        <section id="awards">
+          <Awards />
+        </section>
       </div>
     </div>
   );

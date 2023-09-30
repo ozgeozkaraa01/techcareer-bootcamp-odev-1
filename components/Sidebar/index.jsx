@@ -14,27 +14,27 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#experience">
               Experience
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#education">
               Education
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#skills">
               Skills
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#interests">
               Interests
             </Link>
           </li>
           <li className={styles.navItem}>
-            <Link className={styles.navLink} href="/">
+            <Link className={styles.navLink} href="#awards">
               Awards
             </Link>
           </li>

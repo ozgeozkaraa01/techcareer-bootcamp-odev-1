@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 75rem; /* Maksimum genişlik ayarı */
+  border-top: 1px solid var(--line-gray);
+}
