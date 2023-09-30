@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Sidebar />
-      <div>
+      <div style={{ marginLeft: "17rem" }}>
         <About />
         <Experience />
         <Education />

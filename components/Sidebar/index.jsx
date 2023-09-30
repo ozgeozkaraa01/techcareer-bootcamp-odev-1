@@ -1,9 +1,47 @@
-import React from 'react'
+import React from "react";
+import styles from "./styles.module.scss";
+import Link from "next/link";
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
-  )
-}
+    <nav className={styles.container}>
+      <img src="/assets/profile.jpg" alt="profile-img" />
+      <div className={styles.navList}>
+        <ul className={styles.nav}>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              About
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              Experience
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              Education
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              Skills
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              Interests
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href="/">
+              Awards
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-export default Sidebar
+export default Sidebar;
