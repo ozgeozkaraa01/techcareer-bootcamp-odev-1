@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
+  max-width: 75rem; /* Maksimum genişlik ayarı */
+  border-top: 1px solid var(--line-gray);
+}
+
+.listItem {
+  padding-left: 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem li {
+  //   display: inline-block;
+  display: flex;
+  align-items: center;
+  color: var(--secondary);
+  margin-bottom: 0.3rem;
+}
+
+.listItem li span {
+  margin-right: 10px; /* İkon ile yazı arasındaki boşluğu ayarla */
+  color: var(--yellow);
+}
